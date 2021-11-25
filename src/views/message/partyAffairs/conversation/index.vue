@@ -561,11 +561,11 @@ export default {
             res.data.items.forEach((item) => {
               if (item.type === "image") {
                 item.default =
-                  "http://121.196.146.231/fastapi/v1/api/files/" + item.default;
+                  "http://101.34.237.153:7000/fastapi/v1/api/files/" + item.default;
               }
               if (item.type === "signature") {
                 _this.showSignUrl = item.default
-                  ? "http://121.196.146.231/fastapi/v1/api/files/" +
+                  ? "http://101.34.237.153:7000/fastapi/v1/api/files/" +
                     item.default
                   : null;
               }

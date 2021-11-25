@@ -383,7 +383,7 @@
         >
           <el-form-item label="上传文件">
             <el-upload
-              action="http://121.196.146.231/v1/api/files"
+              action="http://101.34.237.153:7000/v1/api/files"
               multiple
               :on-remove="fileupload_remove"
               :on-success="fileupload_success"
@@ -1076,12 +1076,12 @@ export default {
               res.data.items.forEach((item) => {
                 if (item.type === "image") {
                   this.imageUrl =
-                    "http://121.196.146.231/fastapi/v1/api/files/" +
+                    "http://101.34.237.153:7000/fastapi/v1/api/files/" +
                     item.default;
                 }
                 if (item.type === "signature") {
                   this.signUrl =
-                    "http://121.196.146.231/fastapi/v1/api/files/" +
+                    "http://101.34.237.153:7000/fastapi/v1/api/files/" +
                     item.default;
                 }
                 if (item.key === "sex") {

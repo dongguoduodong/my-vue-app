@@ -67,7 +67,7 @@
                 </el-form-item>
                 <el-form-item label="添加附件">
                   <el-upload
-                    action="http://121.196.146.231/v1/api/files"
+                    action="http://101.34.237.153:7000/v1/api/files"
                     multiple
                     :on-remove="fileupload_remove"
                     :on-success="fileupload_success"

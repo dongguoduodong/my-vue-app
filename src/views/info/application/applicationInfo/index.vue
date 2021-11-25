@@ -286,10 +286,10 @@ export default {
                 if (res !== false) {
                   res.data.items.forEach(item => {
                     if (item.type === 'image') {
-                      item.default = 'http://121.196.146.231/fastapi/v1/api/files/' + item.default
+                      item.default = 'http://101.34.237.153:7000/fastapi/v1/api/files/' + item.default
                     }
                     if (item.type === 'signature') {
-                      item.default = 'http://121.196.146.231/fastapi/v1/api/files/' + item.default
+                      item.default = 'http://101.34.237.153:7000/fastapi/v1/api/files/' + item.default
                     }
                     if (item.key === 'sex') {
                       let sexSet = {

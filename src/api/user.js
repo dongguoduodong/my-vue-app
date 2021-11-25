@@ -4,7 +4,7 @@ let url = window.location.hostname;
 if (url.indexOf('hdu')>-1) {
   var baseURL = 'http://jsjdj.hdu.edu.cn'
 } else {
-  var baseURL = 'http://121.196.146.231'
+  var baseURL = 'http://101.34.237.153:7000'
 }
 
 export function login(data) {

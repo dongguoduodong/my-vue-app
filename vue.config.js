@@ -38,7 +38,7 @@ module.exports = {
     },
     // proxy: {
     //   '/v1/api/users/login': {
-    //     target: 'http://121.196.146.231',
+    //     target: 'http://101.34.237.153:7000',
     //     changeOrigin: true,
     //     pathRewrite: {
     //       ['^' + process.env.VUE_APP_BASE_API]: ''
